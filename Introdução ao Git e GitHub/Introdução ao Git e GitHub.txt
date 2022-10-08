@@ -1,0 +1,23 @@
+INTRODUÇÃO AO GIT E GITHUB
+
+-INSTALAÇÃO
+Links para Download
+Git: https://git-scm.com/
+GitHub: https://github.com/
+
+-COMANDOS ÚTEIS
+git clone link_do_git
+Para apontar o repositório existente e cloná-lo na máquina.
+
+git status
+Verificar o status do diretório de trabalho.
+
+git add . ou git add -a
+Adicionar os arquivos ao controle de versão.
+
+git commit -m "Comentário"
+Para criação do commit, ou seja adicionar as alterações mais recentes ao repositório.
+
+git push
+Enviar as alterações adicionadas ao repositório local para o repositório remoto.
+

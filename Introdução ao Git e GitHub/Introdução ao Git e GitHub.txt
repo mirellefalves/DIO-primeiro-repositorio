@@ -1,23 +1,39 @@
-INTRODU«√O AO GIT E GITHUB
+INTRODU√á√ÉO AO GIT E GITHUB
 
--INSTALA«√O
+-INSTALA√á√ÉO
 Links para Download
 Git: https://git-scm.com/
 GitHub: https://github.com/
 
--COMANDOS ⁄TEIS
+-CHAVE SSH
+ssh-keygen -t ed25519 -C email
+Comando para gerar chave SSH. Ap√≥s a execu√ß√£o do mesmo, criar uma senhano terminal.
+
+Entrar na pasta .ssh
+
+cat id_ed25519.pub
+Executar o comando acima para que o sistema exiba a chave p√∫blica. Em seguiga, copie a mesma e cole no GitHub no campo espec√≠fico para chave SSH. O t√≠tulo da chave pode ser de sua prefer√™ncia para refer√™nciar o dispositivo que est√° utilizando.
+
+eval $(ssh-agent -s)
+ssh-add id_ed25519
+Adiciona a chave privada.
+
+-COMANDOS √öTEIS
+git init
+Cria um novo reposit√≥rio no Git.
+
 git clone link_do_git
-Para apontar o repositÛrio existente e clon·-lo na m·quina.
+Para apontar o reposit√≥rio existente e clon√°-lo na m√°quina.
 
 git status
-Verificar o status do diretÛrio de trabalho.
+Verificar o status do diret√≥rio de trabalho.
 
 git add . ou git add -a
-Adicionar os arquivos ao controle de vers„o.
+Adicionar os arquivos ao controle de vers√£o.
 
-git commit -m "Coment·rio"
-Para criaÁ„o do commit, ou seja adicionar as alteraÁıes mais recentes ao repositÛrio.
+git commit -m "Coment√°rio"
+Para cria√ß√£o do commit, ou seja adicionar as altera√ß√µes mais recentes ao reposit√≥rio.
 
 git push
-Enviar as alteraÁıes adicionadas ao repositÛrio local para o repositÛrio remoto.
+Enviar as altera√ß√µes adicionadas ao reposit√≥rio local para o reposit√≥rio remoto.
 
